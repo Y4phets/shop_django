@@ -12,6 +12,10 @@ class SubscriberAdmin (admin.ModelAdmin):
 
     # exclude = ["email"]
 	# inlines = [FieldMappingInline]
+	# fields = []
+    # #exclude = ["type"]
+	# #list_filter = ('report_data',)
+	# search_fields = ['category', 'subCategory', 'suggestKeyword']
 
     class Meta:
         model = Subscriber
