@@ -8,7 +8,7 @@ class SubscriberAdmin (admin.ModelAdmin):
     list_filter = ['name',]
     search_fields = ['name', 'email']
 
-    fields = ["email"]
+    fields = ['name', 'email']
 
     # exclude = ["email"]
 	# inlines = [FieldMappingInline]
